@@ -1,0 +1,26 @@
+.banner
+{
+    margin: 50px 0px;
+}
+.coffee h3
+{
+    width: 30%;
+    border-bottom:2px solid green ;
+
+}
+.coffee p
+{
+    font-size: 18px;
+}
+
+@media(max-width:576px)
+{
+    .box img
+    {
+        width: 100%;
+    }
+    .box-1 img
+    {
+        width: 100%;
+    }
+}
