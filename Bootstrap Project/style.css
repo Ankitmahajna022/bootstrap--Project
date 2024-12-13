@@ -1,0 +1,297 @@
+.nav-link 
+{
+    font-size: 18px;
+    font-family: montserrat;
+            
+}
+.nav-link::after
+{
+ content: " ";
+ display:block;
+ border-bottom:  3px solid ;
+ padding-top: 5px;
+ width: 0%;
+  margin: auto;
+
+ transition: 0.6s;
+}
+.nav-link:hover::after
+{
+ width: 100%;
+ justify-content: end;
+
+}
+.form
+{
+ width: 100%;
+ display: flex;
+ justify-content: end;
+ position: relative;
+ left: 5%;
+}      
+.form-control
+{
+ border: 2px solid rgb(198, 194, 194);
+ border-radius: 50px;
+}
+::placeholder
+{
+  font-size: 12px;
+  position: relative;
+  top: 50%;
+  left: 10%;
+  align-items: center;
+
+}
+.search i 
+{
+ position: relative;
+ transform: translate(-50%,-50%);
+ top: 50%;
+ left: 5%;
+}
+.user i
+{
+ font-size: 25px;
+ position: relative;
+ top: 40%;
+ left: 50%;
+}
+.crad
+{
+ height: 80px;
+ width: 100%;
+ background-color: #1e3932;
+}
+.crad button
+{
+ position: relative;
+ transform: translate(-50%,-50%);
+ top: 50%;
+ left: 95%;
+ border: 2px solid white;
+ border-radius: 50px;
+}
+.slide1
+{
+    height: 400px;
+    width: 100%;
+    
+}
+.slide1-content
+{
+    height: 350px;
+    width: 80%;
+    margin: auto;
+}
+.holiday
+{
+    height: 300px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 6%;
+}
+.contanet1
+{
+
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 30%;
+    color: white;
+}
+.app
+{
+    height: 300px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 6%;
+}
+.contanet2
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 30%;
+    color: white;
+}
+.handcrafted
+{
+    height: 450px;
+    width: 100%;
+}
+.hand-content
+{
+    height: 450px;
+    width: 80%;
+    margin: auto;
+}
+.handcrafted img
+{
+    height: 160px;
+    width: 160px;
+}
+.barista
+{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(203, 200, 200);
+}
+.barista-slide
+{
+    height: 300px;
+    width: 80%;
+    margin: auto;
+}
+.about
+{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(203, 200, 200);
+}
+.coffee
+{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+}
+.live
+{
+    height: 350px;
+    width: 100%;
+}
+.live img
+{
+    height: 350px;
+    width: 100%;
+}
+.live-cont
+{
+    position:relative;
+    top: -35%;
+    left: 5%;
+    color: white;
+    
+}
+
+.footer
+{
+    height: 600px;
+    width: 100%;
+    background-color:#1e3932;
+    margin-top: 50px;
+    border-top: 1px solid gray;
+}
+.footer-container
+{
+    height: 280px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.footer-container img
+{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 45%;
+    left: -5%;
+}
+info
+{
+    height: 280px;
+    width: 25%;
+}
+.responsibility
+{
+    height: 280px;
+    width: 25%;
+}
+.quick 
+{
+    height: 280px;
+    width: 25%;
+}
+.media
+{
+    height: 280px;
+    width: 25%;
+}
+.media li i
+{
+    font-size: 25px;
+    padding: 10px;
+}
+ul
+{
+    margin-top: 50px;
+}
+ul .head
+{
+    font-weight: bold;
+    color:white;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+ul li
+{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    color:white;
+}
+.contact-info
+{
+    height: 150px;
+    width: 80%;
+    margin: auto;
+}
+.contact-info img
+{
+    height: 45px;
+    padding-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    left: 38%;
+}
+.contact-info h5
+{
+    font-family:arial;
+    color: gray;
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.contact-info h5 a
+{
+    font-family:arial;
+    color: gray;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.app2
+{
+    height: 150px;
+    width: 100%;
+}
+.app2 img
+{
+    height: 100px;
+    width: 100%;
+}
+.footer-container::after
+{
+    width: 100%;
+ border-bottom: 2px solid black;
+}
+.card-wappr
+{
+    display: flex;
+}
+
